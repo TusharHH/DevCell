@@ -1,0 +1,19 @@
+.template-selector {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+
+    .template {
+        cursor: pointer;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        width: 45%;
+        text-align: center;
+
+        &.active {
+            border-color: #007bff;
+            background-color: #f0f8ff;
+        }
+    }
+}

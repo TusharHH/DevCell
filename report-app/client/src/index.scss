@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 1rem;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.navbar button {
+  background-color: #555;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+}
+
+.navbar button:hover {
+  background-color: #888;
+}
+
+.login, .signup, .dashboard, .homepage {
+  margin: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+form button {
+  padding: 0.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
